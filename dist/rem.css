@@ -48,6 +48,22 @@
 :root {
   --body-font-size: 12px;
 }
+@media screen and (min-resolution: 1dppx) and (max-resolution: 1dppx) {
+  :root {
+    --body-font-size: 12px;
+  }
+}
+@media screen and (min-resolution: 2dppx) and (max-resolution: 2dppx) {
+  :root {
+    --body-font-size: 24px;
+  }
+}
+@media screen and (min-resolution: 3dppx) and (max-resolution: 3dppx){
+  :root {
+    --body-font-size: 36px;
+  }
+}
+
 body {
   font-size: 12px;
   font-size: var(--body-font-size, 12px);
