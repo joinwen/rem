@@ -48,6 +48,7 @@
 :root {
   --body-font-size: 12px;
 }
+/* resolution not support in safari browser */
 @media screen and (min-resolution: 1dppx) and (max-resolution: 1dppx) {
   :root {
     --body-font-size: 12px;
